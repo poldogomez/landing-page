@@ -7,10 +7,19 @@ body {
 .header{
   background-color: #1F2937;
   font-size: 24px;
-  padding: 18px 10%;
+  padding: 18px 10% 80px 10%;
+}
+
+.header-top{
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.header-bottom{
+  display: flex;
+  align-items: center;
+  padding-top: 80px;
 }
 
 .logo,
