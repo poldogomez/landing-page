@@ -22,6 +22,12 @@ body {
   padding-top: 80px;
 }
 
+.left,
+.right{
+  width: 50%;
+  border: 1px solid black;
+}
+
 .logo,
 a{
   color: #F9FAF8;
