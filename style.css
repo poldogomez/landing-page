@@ -18,18 +18,25 @@ body {
 
 .header-bottom{
   display: flex;
-  align-items: center;
+  align-items: stretch;
+  justify-items: center;
   padding-top: 80px;
 }
 
 .left,
 .right{
   width: 50%;
-  border: 1px solid black;
+  border: 1px solid black   ;
+}
+
+.right{
+  background-color: lightgray;
+  text-align: center;
+  color: #F9FAF8;
 }
 
 .logo,
-a{
+.hero-text{
   color: #F9FAF8;
 }
 
@@ -47,7 +54,28 @@ ul {
   gap: 18px;
 }
 
-a {
+a,
+.hero-secondary,
+button{
+  color: #E5E7EB;
   font-size: 18px;
+  margin-top: 8px;
+}
+
+a{
   text-decoration: none;
+}
+
+.hero-text {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+button{
+  background-color: #3882F6;
+  border: none;
+  font-weight: bold;
+  padding: 8px 24px;
+  border-radius: 8px;
+  margin-top: 16px;
 }
