@@ -19,19 +19,21 @@ body {
 .header-bottom{
   display: flex;
   align-items: stretch;
-  justify-items: center;
   padding-top: 80px;
+  gap: 16px;
 }
 
 .left,
 .right{
   width: 50%;
-  border: 1px solid black   ;
 }
 
 .right{
   background-color: lightgray;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
   color: #F9FAF8;
 }
 
