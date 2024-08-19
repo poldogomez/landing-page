@@ -169,3 +169,12 @@ button{
   font-size: 18px;
   font-weight: 900;
 }
+
+.footer-text{
+  background-color: #1F2937;
+  color:#E5E7EB;
+  text-align: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  align-content: flex-end;
+}
