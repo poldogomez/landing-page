@@ -138,3 +138,34 @@ button{
   text-align: right;
   padding-top: 16px;
 }
+
+.call-action{
+  background-color: #3882F6;
+  color: #E5E7EB;
+  margin: 48px 10%;
+  padding: 48px 10%;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.call-action > button{
+  border: 3px solid #E5E7EB;
+}
+
+.call-left{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+}
+
+.call-header,
+.call-text{
+  color: #E5E7EB;
+}
+
+.call-header{
+  font-size: 18px;
+  font-weight: 900;
+}
