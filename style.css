@@ -33,7 +33,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 16px;
+  /* padding: 16px; */
   color: #F9FAF8;
 }
 
@@ -176,5 +176,5 @@ button{
   text-align: center;
   padding-top: 32px;
   padding-bottom: 32px;
-  align-content: flex-end;
+  align-content: flex-end;  
 }
