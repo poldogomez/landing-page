@@ -29,7 +29,7 @@ body {
 }
 
 .right{
-  background-color: lightgray;
+  /* background-color: lightgray; */
   display: flex;
   align-items: center;
   justify-content: center;
